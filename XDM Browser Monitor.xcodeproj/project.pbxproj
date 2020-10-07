@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		698B79A6252E005500BBE412 /* fatal.html in Resources */ = {isa = PBXBuildFile; fileRef = 698B7999252E005400BBE412 /* fatal.html */; };
+		698B79A7252E005500BBE412 /* icon_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 698B799A252E005400BBE412 /* icon_disabled.png */; };
+		698B79A8252E005500BBE412 /* icon_blocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 698B799B252E005400BBE412 /* icon_blocked.png */; };
+		698B79A9252E005500BBE412 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 698B799C252E005400BBE412 /* popup.js */; };
+		698B79AA252E005500BBE412 /* status.html in Resources */ = {isa = PBXBuildFile; fileRef = 698B799D252E005400BBE412 /* status.html */; };
+		698B79AB252E005500BBE412 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 698B799E252E005400BBE412 /* icon-128.png */; };
+		698B79AC252E005500BBE412 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 698B799F252E005400BBE412 /* icon.png */; };
+		698B79AD252E005500BBE412 /* bg.js in Resources */ = {isa = PBXBuildFile; fileRef = 698B79A0252E005400BBE412 /* bg.js */; };
+		698B79AE252E005500BBE412 /* disabled.html in Resources */ = {isa = PBXBuildFile; fileRef = 698B79A1252E005400BBE412 /* disabled.html */; };
+		698B79AF252E005500BBE412 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 698B79A2252E005500BBE412 /* background.html */; };
+		698B79B0252E005500BBE412 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 698B79A3252E005500BBE412 /* contentscript.js */; };
+		698B79B1252E005500BBE412 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 698B79A4252E005500BBE412 /* manifest.json */; };
+		698B79B2252E005500BBE412 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 698B79A5252E005500BBE412 /* styles.css */; };
 		699BEFCD252D472F00598190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFCC252D472F00598190 /* AppDelegate.swift */; };
 		699BEFD0252D472F00598190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFCE252D472F00598190 /* Main.storyboard */; };
 		699BEFD2252D472F00598190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFD1252D472F00598190 /* ViewController.swift */; };
@@ -14,19 +27,6 @@
 		699BEFDB252D473100598190 /* XDM Browser Monitor Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		699BEFE0252D473100598190 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699BEFDF252D473100598190 /* Cocoa.framework */; };
 		699BEFE3252D473100598190 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */; };
-		699BEFFD252D473200598190 /* icon_blocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF0252D473200598190 /* icon_blocked.png */; };
-		699BEFFE252D473200598190 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF1252D473200598190 /* icon.png */; };
-		699BEFFF252D473200598190 /* status.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF2252D473200598190 /* status.html */; };
-		699BF000252D473200598190 /* disabled.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF3252D473200598190 /* disabled.html */; };
-		699BF001252D473200598190 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF4252D473200598190 /* popup.js */; };
-		699BF002252D473200598190 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF5252D473200598190 /* styles.css */; };
-		699BF003252D473200598190 /* fatal.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF6252D473200598190 /* fatal.html */; };
-		699BF004252D473200598190 /* bg.js in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF7252D473200598190 /* bg.js */; };
-		699BF005252D473200598190 /* icon_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF8252D473200598190 /* icon_disabled.png */; };
-		699BF006252D473200598190 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF9252D473200598190 /* manifest.json */; };
-		699BF007252D473200598190 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFFA252D473200598190 /* background.html */; };
-		699BF008252D473200598190 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFFB252D473200598190 /* icon-128.png */; };
-		699BF009252D473200598190 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFFC252D473200598190 /* contentscript.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +54,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		698B7999252E005400BBE412 /* fatal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fatal.html; sourceTree = "<group>"; };
+		698B799A252E005400BBE412 /* icon_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_disabled.png; sourceTree = "<group>"; };
+		698B799B252E005400BBE412 /* icon_blocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_blocked.png; sourceTree = "<group>"; };
+		698B799C252E005400BBE412 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		698B799D252E005400BBE412 /* status.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = status.html; sourceTree = "<group>"; };
+		698B799E252E005400BBE412 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
+		698B799F252E005400BBE412 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		698B79A0252E005400BBE412 /* bg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bg.js; sourceTree = "<group>"; };
+		698B79A1252E005400BBE412 /* disabled.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disabled.html; sourceTree = "<group>"; };
+		698B79A2252E005500BBE412 /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = background.html; sourceTree = "<group>"; };
+		698B79A3252E005500BBE412 /* contentscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentscript.js; sourceTree = "<group>"; };
+		698B79A4252E005500BBE412 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		698B79A5252E005500BBE412 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		699BEFC8252D472F00598190 /* XDM Browser Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XDM Browser Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699BEFCB252D472F00598190 /* XDM_Browser_Monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Browser_Monitor.entitlements; sourceTree = "<group>"; };
 		699BEFCC252D472F00598190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,19 +79,6 @@
 		699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		699BEFE4252D473100598190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699BEFE5252D473100598190 /* XDM_Browser_Monitor_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Browser_Monitor_Extension.entitlements; sourceTree = "<group>"; };
-		699BEFF0252D473200598190 /* icon_blocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_blocked.png; path = ../../extensions/xdm/icon_blocked.png; sourceTree = "<group>"; };
-		699BEFF1252D473200598190 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../extensions/xdm/icon.png; sourceTree = "<group>"; };
-		699BEFF2252D473200598190 /* status.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = status.html; path = ../../extensions/xdm/status.html; sourceTree = "<group>"; };
-		699BEFF3252D473200598190 /* disabled.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = disabled.html; path = ../../extensions/xdm/disabled.html; sourceTree = "<group>"; };
-		699BEFF4252D473200598190 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../extensions/xdm/popup.js; sourceTree = "<group>"; };
-		699BEFF5252D473200598190 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = ../../extensions/xdm/styles.css; sourceTree = "<group>"; };
-		699BEFF6252D473200598190 /* fatal.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fatal.html; path = ../../extensions/xdm/fatal.html; sourceTree = "<group>"; };
-		699BEFF7252D473200598190 /* bg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = bg.js; path = ../../extensions/xdm/bg.js; sourceTree = "<group>"; };
-		699BEFF8252D473200598190 /* icon_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_disabled.png; path = ../../extensions/xdm/icon_disabled.png; sourceTree = "<group>"; };
-		699BEFF9252D473200598190 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extensions/xdm/manifest.json; sourceTree = "<group>"; };
-		699BEFFA252D473200598190 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = ../../extensions/xdm/background.html; sourceTree = "<group>"; };
-		699BEFFB252D473200598190 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../extensions/xdm/icon-128.png"; sourceTree = "<group>"; };
-		699BEFFC252D473200598190 /* contentscript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentscript.js; path = ../../extensions/xdm/contentscript.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6941029D252E00C5008F250F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				698B79A2252E005500BBE412 /* background.html */,
+				698B79A0252E005400BBE412 /* bg.js */,
+				698B79A3252E005500BBE412 /* contentscript.js */,
+				698B79A1252E005400BBE412 /* disabled.html */,
+				698B7999252E005400BBE412 /* fatal.html */,
+				698B799B252E005400BBE412 /* icon_blocked.png */,
+				698B799A252E005400BBE412 /* icon_disabled.png */,
+				698B799E252E005400BBE412 /* icon-128.png */,
+				698B799F252E005400BBE412 /* icon.png */,
+				698B79A4252E005500BBE412 /* manifest.json */,
+				698B799C252E005400BBE412 /* popup.js */,
+				698B799D252E005400BBE412 /* status.html */,
+				698B79A5252E005500BBE412 /* styles.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		699BEFBF252D472E00598190 = {
 			isa = PBXGroup;
 			children = (
@@ -143,34 +163,13 @@
 		699BEFE1252D473100598190 /* XDM Browser Monitor Extension */ = {
 			isa = PBXGroup;
 			children = (
-				699BEFEF252D473200598190 /* Resources */,
+				6941029D252E00C5008F250F /* Resources */,
 				699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */,
 				699BEFE4252D473100598190 /* Info.plist */,
 				699BEFE5252D473100598190 /* XDM_Browser_Monitor_Extension.entitlements */,
 			);
 			path = "XDM Browser Monitor Extension";
 			sourceTree = "<group>";
-		};
-		699BEFEF252D473200598190 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				699BEFF0252D473200598190 /* icon_blocked.png */,
-				699BEFF1252D473200598190 /* icon.png */,
-				699BEFF2252D473200598190 /* status.html */,
-				699BEFF3252D473200598190 /* disabled.html */,
-				699BEFF4252D473200598190 /* popup.js */,
-				699BEFF5252D473200598190 /* styles.css */,
-				699BEFF6252D473200598190 /* fatal.html */,
-				699BEFF7252D473200598190 /* bg.js */,
-				699BEFF8252D473200598190 /* icon_disabled.png */,
-				699BEFF9252D473200598190 /* manifest.json */,
-				699BEFFA252D473200598190 /* background.html */,
-				699BEFFB252D473200598190 /* icon-128.png */,
-				699BEFFC252D473200598190 /* contentscript.js */,
-			);
-			name = Resources;
-			path = "XDM Browser Monitor Extension";
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -261,19 +260,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699BF000252D473200598190 /* disabled.html in Resources */,
-				699BF007252D473200598190 /* background.html in Resources */,
-				699BF005252D473200598190 /* icon_disabled.png in Resources */,
-				699BF006252D473200598190 /* manifest.json in Resources */,
-				699BF004252D473200598190 /* bg.js in Resources */,
-				699BEFFE252D473200598190 /* icon.png in Resources */,
-				699BF001252D473200598190 /* popup.js in Resources */,
-				699BF002252D473200598190 /* styles.css in Resources */,
-				699BF008252D473200598190 /* icon-128.png in Resources */,
-				699BF009252D473200598190 /* contentscript.js in Resources */,
-				699BEFFD252D473200598190 /* icon_blocked.png in Resources */,
-				699BEFFF252D473200598190 /* status.html in Resources */,
-				699BF003252D473200598190 /* fatal.html in Resources */,
+				698B79A7252E005500BBE412 /* icon_disabled.png in Resources */,
+				698B79AD252E005500BBE412 /* bg.js in Resources */,
+				698B79AC252E005500BBE412 /* icon.png in Resources */,
+				698B79A8252E005500BBE412 /* icon_blocked.png in Resources */,
+				698B79B2252E005500BBE412 /* styles.css in Resources */,
+				698B79B1252E005500BBE412 /* manifest.json in Resources */,
+				698B79AE252E005500BBE412 /* disabled.html in Resources */,
+				698B79AB252E005500BBE412 /* icon-128.png in Resources */,
+				698B79A6252E005500BBE412 /* fatal.html in Resources */,
+				698B79A9252E005500BBE412 /* popup.js in Resources */,
+				698B79B0252E005500BBE412 /* contentscript.js in Resources */,
+				698B79AF252E005500BBE412 /* background.html in Resources */,
+				698B79AA252E005500BBE412 /* status.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
