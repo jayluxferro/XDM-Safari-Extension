@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "XDM Browser Monitor",
+  "description": "XDM integration module for Safari",
+  "version": "1.0",
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "cookies",
+    "contextMenus",
+    "activeTab",
+    "webRequest",
+    "nativeMessaging",
+    "*://*/*"
+  ],
+  "commands": {
+    "toggle-monitoring": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Toggle monitoring"
+    }
+  }
+}
