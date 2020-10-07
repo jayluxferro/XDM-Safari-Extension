@@ -5,3 +5,5 @@
 2. Enable "**Develop**" mode in Safari.
 3. Allow unsigned extension.
 4. Build and run the project to install the extension.
+
+<img src="sample/1.jpg" style="width: 200px;"/>
