@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		699BEFCD252D472F00598190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFCC252D472F00598190 /* AppDelegate.swift */; };
+		699BEFD0252D472F00598190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFCE252D472F00598190 /* Main.storyboard */; };
+		699BEFD2252D472F00598190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFD1252D472F00598190 /* ViewController.swift */; };
+		699BEFD4252D473100598190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFD3252D473100598190 /* Assets.xcassets */; };
+		699BEFDB252D473100598190 /* XDM Browser Monitor Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		699BEFE0252D473100598190 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699BEFDF252D473100598190 /* Cocoa.framework */; };
+		699BEFE3252D473100598190 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */; };
+		699BEFFD252D473200598190 /* icon_blocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF0252D473200598190 /* icon_blocked.png */; };
+		699BEFFE252D473200598190 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF1252D473200598190 /* icon.png */; };
+		699BEFFF252D473200598190 /* status.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF2252D473200598190 /* status.html */; };
+		699BF000252D473200598190 /* disabled.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF3252D473200598190 /* disabled.html */; };
+		699BF001252D473200598190 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF4252D473200598190 /* popup.js */; };
+		699BF002252D473200598190 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF5252D473200598190 /* styles.css */; };
+		699BF003252D473200598190 /* fatal.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF6252D473200598190 /* fatal.html */; };
+		699BF004252D473200598190 /* bg.js in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF7252D473200598190 /* bg.js */; };
+		699BF005252D473200598190 /* icon_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF8252D473200598190 /* icon_disabled.png */; };
+		699BF006252D473200598190 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFF9252D473200598190 /* manifest.json */; };
+		699BF007252D473200598190 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFFA252D473200598190 /* background.html */; };
+		699BF008252D473200598190 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFFB252D473200598190 /* icon-128.png */; };
+		699BF009252D473200598190 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFFC252D473200598190 /* contentscript.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		699BEFDC252D473100598190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699BEFC0252D472F00598190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699BEFD9252D473100598190;
+			remoteInfo = "XDM Browser Monitor Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		699BEFEB252D473100598190 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				699BEFDB252D473100598190 /* XDM Browser Monitor Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		699BEFC8252D472F00598190 /* XDM Browser Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XDM Browser Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699BEFCB252D472F00598190 /* XDM_Browser_Monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Browser_Monitor.entitlements; sourceTree = "<group>"; };
+		699BEFCC252D472F00598190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		699BEFCF252D472F00598190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		699BEFD1252D472F00598190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		699BEFD3252D473100598190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		699BEFD5252D473100598190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XDM Browser Monitor Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699BEFDF252D473100598190 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		699BEFE4252D473100598190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699BEFE5252D473100598190 /* XDM_Browser_Monitor_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Browser_Monitor_Extension.entitlements; sourceTree = "<group>"; };
+		699BEFF0252D473200598190 /* icon_blocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_blocked.png; path = ../../extensions/xdm/icon_blocked.png; sourceTree = "<group>"; };
+		699BEFF1252D473200598190 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../extensions/xdm/icon.png; sourceTree = "<group>"; };
+		699BEFF2252D473200598190 /* status.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = status.html; path = ../../extensions/xdm/status.html; sourceTree = "<group>"; };
+		699BEFF3252D473200598190 /* disabled.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = disabled.html; path = ../../extensions/xdm/disabled.html; sourceTree = "<group>"; };
+		699BEFF4252D473200598190 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../extensions/xdm/popup.js; sourceTree = "<group>"; };
+		699BEFF5252D473200598190 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = ../../extensions/xdm/styles.css; sourceTree = "<group>"; };
+		699BEFF6252D473200598190 /* fatal.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fatal.html; path = ../../extensions/xdm/fatal.html; sourceTree = "<group>"; };
+		699BEFF7252D473200598190 /* bg.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = bg.js; path = ../../extensions/xdm/bg.js; sourceTree = "<group>"; };
+		699BEFF8252D473200598190 /* icon_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_disabled.png; path = ../../extensions/xdm/icon_disabled.png; sourceTree = "<group>"; };
+		699BEFF9252D473200598190 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extensions/xdm/manifest.json; sourceTree = "<group>"; };
+		699BEFFA252D473200598190 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = ../../extensions/xdm/background.html; sourceTree = "<group>"; };
+		699BEFFB252D473200598190 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../extensions/xdm/icon-128.png"; sourceTree = "<group>"; };
+		699BEFFC252D473200598190 /* contentscript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentscript.js; path = ../../extensions/xdm/contentscript.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		699BEFC5252D472F00598190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699BEFD7252D473100598190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699BEFE0252D473100598190 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		699BEFBF252D472E00598190 = {
+			isa = PBXGroup;
+			children = (
+				699BEFCA252D472F00598190 /* XDM Browser Monitor */,
+				699BEFE1252D473100598190 /* XDM Browser Monitor Extension */,
+				699BEFDE252D473100598190 /* Frameworks */,
+				699BEFC9252D472F00598190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		699BEFC9252D472F00598190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				699BEFC8252D472F00598190 /* XDM Browser Monitor.app */,
+				699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699BEFCA252D472F00598190 /* XDM Browser Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				699BEFCB252D472F00598190 /* XDM_Browser_Monitor.entitlements */,
+				699BEFCC252D472F00598190 /* AppDelegate.swift */,
+				699BEFCE252D472F00598190 /* Main.storyboard */,
+				699BEFD1252D472F00598190 /* ViewController.swift */,
+				699BEFD3252D473100598190 /* Assets.xcassets */,
+				699BEFD5252D473100598190 /* Info.plist */,
+			);
+			path = "XDM Browser Monitor";
+			sourceTree = "<group>";
+		};
+		699BEFDE252D473100598190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				699BEFDF252D473100598190 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		699BEFE1252D473100598190 /* XDM Browser Monitor Extension */ = {
+			isa = PBXGroup;
+			children = (
+				699BEFEF252D473200598190 /* Resources */,
+				699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */,
+				699BEFE4252D473100598190 /* Info.plist */,
+				699BEFE5252D473100598190 /* XDM_Browser_Monitor_Extension.entitlements */,
+			);
+			path = "XDM Browser Monitor Extension";
+			sourceTree = "<group>";
+		};
+		699BEFEF252D473200598190 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				699BEFF0252D473200598190 /* icon_blocked.png */,
+				699BEFF1252D473200598190 /* icon.png */,
+				699BEFF2252D473200598190 /* status.html */,
+				699BEFF3252D473200598190 /* disabled.html */,
+				699BEFF4252D473200598190 /* popup.js */,
+				699BEFF5252D473200598190 /* styles.css */,
+				699BEFF6252D473200598190 /* fatal.html */,
+				699BEFF7252D473200598190 /* bg.js */,
+				699BEFF8252D473200598190 /* icon_disabled.png */,
+				699BEFF9252D473200598190 /* manifest.json */,
+				699BEFFA252D473200598190 /* background.html */,
+				699BEFFB252D473200598190 /* icon-128.png */,
+				699BEFFC252D473200598190 /* contentscript.js */,
+			);
+			name = Resources;
+			path = "XDM Browser Monitor Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		699BEFC7252D472F00598190 /* XDM Browser Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor" */;
+			buildPhases = (
+				699BEFC4252D472F00598190 /* Sources */,
+				699BEFC5252D472F00598190 /* Frameworks */,
+				699BEFC6252D472F00598190 /* Resources */,
+				699BEFEB252D473100598190 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699BEFDD252D473100598190 /* PBXTargetDependency */,
+			);
+			name = "XDM Browser Monitor";
+			productName = "XDM Browser Monitor";
+			productReference = 699BEFC8252D472F00598190 /* XDM Browser Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		699BEFD9252D473100598190 /* XDM Browser Monitor Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor Extension" */;
+			buildPhases = (
+				699BEFD6252D473100598190 /* Sources */,
+				699BEFD7252D473100598190 /* Frameworks */,
+				699BEFD8252D473100598190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XDM Browser Monitor Extension";
+			productName = "XDM Browser Monitor Extension";
+			productReference = 699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		699BEFC0252D472F00598190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					699BEFC7252D472F00598190 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					699BEFD9252D473100598190 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Monitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 699BEFBF252D472E00598190;
+			productRefGroup = 699BEFC9252D472F00598190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				699BEFC7252D472F00598190 /* XDM Browser Monitor */,
+				699BEFD9252D473100598190 /* XDM Browser Monitor Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		699BEFC6252D472F00598190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699BEFD4252D473100598190 /* Assets.xcassets in Resources */,
+				699BEFD0252D472F00598190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699BEFD8252D473100598190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699BF000252D473200598190 /* disabled.html in Resources */,
+				699BF007252D473200598190 /* background.html in Resources */,
+				699BF005252D473200598190 /* icon_disabled.png in Resources */,
+				699BF006252D473200598190 /* manifest.json in Resources */,
+				699BF004252D473200598190 /* bg.js in Resources */,
+				699BEFFE252D473200598190 /* icon.png in Resources */,
+				699BF001252D473200598190 /* popup.js in Resources */,
+				699BF002252D473200598190 /* styles.css in Resources */,
+				699BF008252D473200598190 /* icon-128.png in Resources */,
+				699BF009252D473200598190 /* contentscript.js in Resources */,
+				699BEFFD252D473200598190 /* icon_blocked.png in Resources */,
+				699BEFFF252D473200598190 /* status.html in Resources */,
+				699BF003252D473200598190 /* fatal.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		699BEFC4252D472F00598190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699BEFD2252D472F00598190 /* ViewController.swift in Sources */,
+				699BEFCD252D472F00598190 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699BEFD6252D473100598190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699BEFE3252D473100598190 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699BEFDD252D473100598190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699BEFD9252D473100598190 /* XDM Browser Monitor Extension */;
+			targetProxy = 699BEFDC252D473100598190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		699BEFCE252D472F00598190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699BEFCF252D472F00598190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		699BEFE6252D473100598190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		699BEFE7252D473100598190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		699BEFE9252D473100598190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor Extension/XDM_Browser_Monitor_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XDM Browser Monitor Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		699BEFEA252D473100598190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor Extension/XDM_Browser_Monitor_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XDM Browser Monitor Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		699BEFED252D473100598190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor/XDM_Browser_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "XDM Browser Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		699BEFEE252D473100598190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor/XDM_Browser_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "XDM Browser Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699BEFE6252D473100598190 /* Debug */,
+				699BEFE7252D473100598190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699BEFE9252D473100598190 /* Debug */,
+				699BEFEA252D473100598190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699BEFED252D473100598190 /* Debug */,
+				699BEFEE252D473100598190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 699BEFC0252D472F00598190 /* Project object */;
+}
