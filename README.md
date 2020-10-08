@@ -6,6 +6,5 @@
 3. Allow unsigned extension.
 4. Build and run the project to install the extension.
 
-<br/>
 <hr/>
 <img src="sample/1.jpg" style="width: 150px;"/>
