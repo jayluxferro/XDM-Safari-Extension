@@ -2,7 +2,7 @@
 
 <p id="downloads" align="center">
 	<img src="https://i.stack.imgur.com/TOfqL.png" height="120px"/>
-	<h1 align="center">Xtreme Download Manager</h1>
+	<h2 align="center">Xtreme Download Manager Extension for Safari</h2>
 </p>
 
 <p align="center">
@@ -21,5 +21,5 @@
 <hr/>
 <img src="sample/1.jpg" style="width: 150px;"/>
 
-[//]: #Acknowledgement
+### Acknowledgement
 https://github.com/subhra74/xdm
