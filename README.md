@@ -1,5 +1,3 @@
-<img src="sample/1.jpg" style="width: 150px;"/>
-
 <p id="downloads" align="center">
 	<img src="https://i.stack.imgur.com/TOfqL.png" height="120px"/>
 	<h2 align="center">XDM Extension for Safari</h2>
