@@ -58,30 +58,25 @@ function renderList(arr) {
         var row = table.insertRow(0);
         var cell = row.insertCell(0);
 
-        // if (i < arr.length - 1) {
-        //     var hr = document.createElement('hr');
-        //     cell.appendChild(hr);
-        // }
+        cell.setAttribute("class","card");
 
-        cell.setAttribute("style","padding: 10px;");
-
-        var border = "";// "border-bottom: 1px solid rgb(240,240,240);";
-        // if (i == arr.length - 1) {
-        //     console.log("last element: "+i);
-        //     border = "";
-        // }
 
         var div = document.createElement('div');
-        div.setAttribute("style", "padding: 10px; display: flex; flex-direction: column;" + border);
+        div.setAttribute("class", "card-body")
+        div.setAttribute("style", "padding: 10px; display: flex; flex-direction: column;");
 
         var p1 = document.createElement('span');
-        p1.id=listItem.id;
-        p1.setAttribute("style", "font-family:helvetica,arial,courier; font-size: 14px; cursor: pointer;");
+        p1.setAttribute("style", "font-family:helvetica,arial,courier; font-size: 14px;");
         var node = document.createTextNode(text);
         p1.appendChild(node);
 
         var p2 = document.createElement('span');
-        p2.setAttribute("style", "font-family:helvetica,arial,courier; font-size: 12px;");
+        p2.id=listItem.id;
+        p2.setAttribute("style", "font-family:helvetica,arial,courier; font-size: 12px; margin-top: 5px; cursor: pointer;");
+        p2.setAttribute("class", "badge badge-dark")
+        p2.addEventListener('click', function (e) {
+           downloadNow(e)
+        });
         node = document.createTextNode(info);
         p2.appendChild(node);
 
@@ -89,15 +84,13 @@ function renderList(arr) {
         div.appendChild(p2);
 
         cell.appendChild(div);
-
-        //div.id = listItem.id;
-
-        div.addEventListener('click', function (e) {
-            //alert("Sending message for download - id: "+e.target.id+ "target: "+e.target);
-            browser.runtime.sendMessage({ type: "vid", itemId: e.target.id });
-            window.close();
-        });
     }
+}
+
+function downloadNow(e){
+    //alert("Sending message for download - id: "+e.target.id+ "target: "+e.target);
+    browser.runtime.sendMessage({ type: "vid", itemId: e.target.id });
+    window.close();
 }
 
 
