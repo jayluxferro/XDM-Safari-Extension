@@ -551,12 +551,13 @@
             contexts: ["all"],
             onclick: runContentScript,
         });
-
+        log("loaded");
     };
 
     initSelf();
-    log("loaded");
-    
+
     //check XDM if is running and enable monitoring
-    syncXDM();
+    setInterval(function(){
+        syncXDM()
+    }, 5000)
 })();

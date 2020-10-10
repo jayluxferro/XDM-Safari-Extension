@@ -1,5 +1,7 @@
 window.onload = function () {
     document.getElementById('content').style.display = 'none';
+    document.getElementById('loader').style.display = 'block';
+    
     browser.runtime.sendMessage({ type: "stat" }, function (response) {
         // console.log(response)
         document.getElementById("chk").checked = !response.isDisabled;
@@ -10,17 +12,6 @@ window.onload = function () {
             browser.runtime.sendMessage({ type: "clear" });
             window.close();
         });
-
-        /*
-        document.getElementById('format').addEventListener('click', function () {
-            alert("Please select desired format in web player")
-        });
-         */
-        
-        if (response.list.length > 0) {
-            document.getElementById('content').style.display = 'block';
-            //return;
-        }
 
         renderList(response.list);
 
@@ -45,7 +36,7 @@ function renderList(arr) {
 
     var table = document.getElementById("table");
 
-    // console.log("total element: "+arr.length);
+    // console.log("total element: " +arr.length);
 
     for (var i = 0; i < arr.length; i++) {
         var listItem = arr[i];
@@ -85,6 +76,14 @@ function renderList(arr) {
 
         cell.appendChild(div);
     }
+    
+    setTimeout(function(){
+        if(arr.length){
+            document.getElementById('content').style.display = 'block';
+        }
+        document.getElementById('loader').style.display = 'none';
+    }, 500)
+
 }
 
 function downloadNow(e){

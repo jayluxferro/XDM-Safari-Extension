@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692AB87D253177FA0063B559 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 692AB87C253177FA0063B559 /* loader.gif */; };
 		698B79A6252E005500BBE412 /* fatal.html in Resources */ = {isa = PBXBuildFile; fileRef = 698B7999252E005400BBE412 /* fatal.html */; };
 		698B79A7252E005500BBE412 /* icon_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 698B799A252E005400BBE412 /* icon_disabled.png */; };
 		698B79A8252E005500BBE412 /* icon_blocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 698B799B252E005400BBE412 /* icon_blocked.png */; };
@@ -54,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		692AB87C253177FA0063B559 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
 		698B7999252E005400BBE412 /* fatal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fatal.html; sourceTree = "<group>"; };
 		698B799A252E005400BBE412 /* icon_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_disabled.png; sourceTree = "<group>"; };
 		698B799B252E005400BBE412 /* icon_blocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_blocked.png; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		6941029D252E00C5008F250F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				692AB87C253177FA0063B559 /* loader.gif */,
 				698B79A2252E005500BBE412 /* background.html */,
 				698B79A0252E005400BBE412 /* bg.js */,
 				698B79A3252E005500BBE412 /* contentscript.js */,
@@ -271,6 +274,7 @@
 				698B79A6252E005500BBE412 /* fatal.html in Resources */,
 				698B79A9252E005500BBE412 /* popup.js in Resources */,
 				698B79B0252E005500BBE412 /* contentscript.js in Resources */,
+				692AB87D253177FA0063B559 /* loader.gif in Resources */,
 				698B79AF252E005500BBE412 /* background.html in Resources */,
 				698B79AA252E005500BBE412 /* status.html in Resources */,
 			);
