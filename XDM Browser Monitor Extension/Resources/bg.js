@@ -21,7 +21,7 @@
             try {
                 console.log(msg);
             } catch (e) {
-                console.log(e + "");
+                console.log(e);
             }
         }
     }
@@ -33,7 +33,7 @@
                 file = getFileFromUrl(response.url);
             }
             sendToXDM(request, response, file, false);
-            return { cancel: true };//return { redirectUrl: "http://127.0.0.1:9614/204" };
+            return { cancel: true };
         } else {
             checkForVideo(request, response);
         }
@@ -495,9 +495,6 @@
                 if (request.type === "links") {
                     var arr = [];
                     arr = request.links;
-                    /* for (var i = 0; i < arr.length; i++) {
-                        console.log("link " + arr[i]);
-                    } */
                     sendUrlsToXDM(arr);
                     sendResponse({ done: "done" });
                 }
@@ -522,7 +519,7 @@
                     
                      // resync
                      videoList = []
-                    syncXDM()
+                     syncXDM()
                 }
             }
         );
