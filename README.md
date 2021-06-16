@@ -14,7 +14,6 @@
 3. Drag and drop the application into your /Applications folder.
 4. Launch the XDM Extension app.
 
-*NB:* If the extension doesn't show in your browser, allow the use of unsigned extension in the 'Develop' menu of your Safari browser.
 
 ### Development
 1. Clone and build project with Xcode 12 or greater.
