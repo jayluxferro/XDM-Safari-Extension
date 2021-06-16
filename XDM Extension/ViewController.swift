@@ -9,8 +9,8 @@ import Cocoa
 import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
-let appName = "XDM Browser Monitor"
-let extensionBundleIdentifier = "org.sperixlabs.XDM-Browser-Monitor-Extension"
+let appName = "XDM Browser Extension"
+let extensionBundleIdentifier = "org.sperixlabs.xdm.extension"
 
 class ViewController: NSViewController {
 
@@ -27,9 +27,9 @@ class ViewController: NSViewController {
 
             DispatchQueue.main.async {
                 if (state.isEnabled) {
-                    self.appNameLabel.stringValue = "\(appName)'s extension is currently on."
+                    self.appNameLabel.stringValue = "\(appName) is currently on."
                 } else {
-                    self.appNameLabel.stringValue = "\(appName)'s extension is currently off. You can turn it on in Safari Extensions preferences."
+                    self.appNameLabel.stringValue = "\(appName) is currently off. You can turn it on in Safari Extensions preferences."
                 }
             }
         }

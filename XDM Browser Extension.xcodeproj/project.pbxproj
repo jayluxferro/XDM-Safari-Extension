@@ -25,7 +25,7 @@
 		699BEFD0252D472F00598190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFCE252D472F00598190 /* Main.storyboard */; };
 		699BEFD2252D472F00598190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFD1252D472F00598190 /* ViewController.swift */; };
 		699BEFD4252D473100598190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFD3252D473100598190 /* Assets.xcassets */; };
-		699BEFDB252D473100598190 /* XDM Browser Monitor Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		699BEFDB252D473100598190 /* XDM Browser Extension Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		699BEFE0252D473100598190 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699BEFDF252D473100598190 /* Cocoa.framework */; };
 		699BEFE3252D473100598190 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				699BEFDB252D473100598190 /* XDM Browser Monitor Extension.appex in Embed App Extensions */,
+				699BEFDB252D473100598190 /* XDM Browser Extension Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,18 +69,18 @@
 		698B79A3252E005500BBE412 /* contentscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentscript.js; sourceTree = "<group>"; };
 		698B79A4252E005500BBE412 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		698B79A5252E005500BBE412 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		699BEFC8252D472F00598190 /* XDM Browser Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XDM Browser Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		699BEFCB252D472F00598190 /* XDM_Browser_Monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Browser_Monitor.entitlements; sourceTree = "<group>"; };
+		699BEFC8252D472F00598190 /* XDM Browser Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XDM Browser Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699BEFCB252D472F00598190 /* XDM_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Extension.entitlements; sourceTree = "<group>"; };
 		699BEFCC252D472F00598190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		699BEFCF252D472F00598190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		699BEFD1252D472F00598190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		699BEFD3252D473100598190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699BEFD5252D473100598190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XDM Browser Monitor Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XDM Browser Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699BEFDF252D473100598190 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		699BEFE4252D473100598190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		699BEFE5252D473100598190 /* XDM_Browser_Monitor_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Browser_Monitor_Extension.entitlements; sourceTree = "<group>"; };
+		699BEFE5252D473100598190 /* Browser_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Browser_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 		699BEFBF252D472E00598190 = {
 			isa = PBXGroup;
 			children = (
-				699BEFCA252D472F00598190 /* XDM Browser Monitor */,
-				699BEFE1252D473100598190 /* XDM Browser Monitor Extension */,
+				699BEFCA252D472F00598190 /* XDM Extension */,
+				699BEFE1252D473100598190 /* Browser Extension */,
 				699BEFDE252D473100598190 /* Frameworks */,
 				699BEFC9252D472F00598190 /* Products */,
 			);
@@ -136,23 +136,23 @@
 		699BEFC9252D472F00598190 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				699BEFC8252D472F00598190 /* XDM Browser Monitor.app */,
-				699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */,
+				699BEFC8252D472F00598190 /* XDM Browser Extension.app */,
+				699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		699BEFCA252D472F00598190 /* XDM Browser Monitor */ = {
+		699BEFCA252D472F00598190 /* XDM Extension */ = {
 			isa = PBXGroup;
 			children = (
-				699BEFCB252D472F00598190 /* XDM_Browser_Monitor.entitlements */,
+				699BEFCB252D472F00598190 /* XDM_Extension.entitlements */,
 				699BEFCC252D472F00598190 /* AppDelegate.swift */,
 				699BEFCE252D472F00598190 /* Main.storyboard */,
 				699BEFD1252D472F00598190 /* ViewController.swift */,
 				699BEFD3252D473100598190 /* Assets.xcassets */,
 				699BEFD5252D473100598190 /* Info.plist */,
 			);
-			path = "XDM Browser Monitor";
+			path = "XDM Extension";
 			sourceTree = "<group>";
 		};
 		699BEFDE252D473100598190 /* Frameworks */ = {
@@ -163,23 +163,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		699BEFE1252D473100598190 /* XDM Browser Monitor Extension */ = {
+		699BEFE1252D473100598190 /* Browser Extension */ = {
 			isa = PBXGroup;
 			children = (
 				6941029D252E00C5008F250F /* Resources */,
 				699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */,
 				699BEFE4252D473100598190 /* Info.plist */,
-				699BEFE5252D473100598190 /* XDM_Browser_Monitor_Extension.entitlements */,
+				699BEFE5252D473100598190 /* Browser_Extension.entitlements */,
 			);
-			path = "XDM Browser Monitor Extension";
+			path = "Browser Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		699BEFC7252D472F00598190 /* XDM Browser Monitor */ = {
+		699BEFC7252D472F00598190 /* XDM Browser Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor" */;
+			buildConfigurationList = 699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension" */;
 			buildPhases = (
 				699BEFC4252D472F00598190 /* Sources */,
 				699BEFC5252D472F00598190 /* Frameworks */,
@@ -191,14 +191,14 @@
 			dependencies = (
 				699BEFDD252D473100598190 /* PBXTargetDependency */,
 			);
-			name = "XDM Browser Monitor";
+			name = "XDM Browser Extension";
 			productName = "XDM Browser Monitor";
-			productReference = 699BEFC8252D472F00598190 /* XDM Browser Monitor.app */;
+			productReference = 699BEFC8252D472F00598190 /* XDM Browser Extension.app */;
 			productType = "com.apple.product-type.application";
 		};
-		699BEFD9252D473100598190 /* XDM Browser Monitor Extension */ = {
+		699BEFD9252D473100598190 /* XDM Browser Extension Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor Extension" */;
+			buildConfigurationList = 699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension Extension" */;
 			buildPhases = (
 				699BEFD6252D473100598190 /* Sources */,
 				699BEFD7252D473100598190 /* Frameworks */,
@@ -208,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = "XDM Browser Monitor Extension";
+			name = "XDM Browser Extension Extension";
 			productName = "XDM Browser Monitor Extension";
-			productReference = 699BEFDA252D473100598190 /* XDM Browser Monitor Extension.appex */;
+			productReference = 699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Monitor" */;
+			buildConfigurationList = 699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Extension" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				699BEFC7252D472F00598190 /* XDM Browser Monitor */,
-				699BEFD9252D473100598190 /* XDM Browser Monitor Extension */,
+				699BEFC7252D472F00598190 /* XDM Browser Extension */,
+				699BEFD9252D473100598190 /* XDM Browser Extension Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 /* Begin PBXTargetDependency section */
 		699BEFDD252D473100598190 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 699BEFD9252D473100598190 /* XDM Browser Monitor Extension */;
+			target = 699BEFD9252D473100598190 /* XDM Browser Extension Extension */;
 			targetProxy = 699BEFDC252D473100598190 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,17 +440,21 @@
 		699BEFE9252D473100598190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor Extension/XDM_Browser_Monitor_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = "Browser Extension/Browser_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "XDM Browser Monitor Extension/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37VQ6H2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Browser Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor-Extension";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sperixlabs.xdm.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,17 +464,21 @@
 		699BEFEA252D473100598190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor Extension/XDM_Browser_Monitor_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = "Browser Extension/Browser_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "XDM Browser Monitor Extension/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37VQ6H2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Browser Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor-Extension";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sperixlabs.xdm.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,17 +491,21 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor/XDM_Browser_Monitor.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = "XDM Extension/XDM_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "XDM Browser Monitor/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37VQ6H2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "XDM Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sperixlabs.xdm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -505,17 +517,21 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "XDM Browser Monitor/XDM_Browser_Monitor.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = "XDM Extension/XDM_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "XDM Browser Monitor/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37VQ6H2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "XDM Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.sperixlabs.XDM-Browser-Monitor";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sperixlabs.xdm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -524,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Monitor" */ = {
+		699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699BEFE6252D473100598190 /* Debug */,
@@ -533,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor Extension" */ = {
+		699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699BEFE9252D473100598190 /* Debug */,
@@ -542,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Monitor" */ = {
+		699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699BEFED252D473100598190 /* Debug */,
