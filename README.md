@@ -23,7 +23,7 @@
 4. Build and run the project to install the extension.
 
 <hr/>
-<img src="sample/1.jpg" style="width: 550px;"/>
+<img src="sample/1.jpg" style="width: 100%; height: auto"/>
 
 ### Acknowledgement
 <a href="https://github.com/subhra74/xdm" target="_blank">https://github.com/subhra74/xdm</a>
