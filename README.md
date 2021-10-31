@@ -10,7 +10,7 @@
 1. Make sure you have XDM installed. 
 <a href="http://xdman.sourceforge.net" target="_blank">Download XDM</a>
 2. Download and unzip the extension. 
-<a href="https://github.com/jayluxferro/XDM-Browser-Extension/releases/download/v1.0.0/XDM.Browser.Extension.app.zip" target="_blank">Download XDM Safari Extension</a>
+<a href="https://github.com/jayluxferro/XDM-Browser-Extension/releases/download/v1.0.0/XDM.Browser.Extension.zip" target="_blank">Download XDM Safari Extension</a>
 3. Drag and drop the application into your /Applications folder.
 4. Launch the XDM Extension app.
 
