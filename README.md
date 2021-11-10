@@ -16,6 +16,9 @@
 
 **NB:** If the extension doesn't show in your browser, allow the use of unsigned extension in the 'Develop' menu of your Safari browser.
 
+### Latest XDM for macOS
+https://github.com/jayluxferro/XDM-Browser-Extension/releases/download/v1.0.0/XDMSetup.dmg
+
 ### Development
 1. Clone and build project with Xcode 12 or greater.
 2. Enable "**Develop**" mode in Safari.
