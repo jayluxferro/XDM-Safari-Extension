@@ -4,7 +4,7 @@
 </p>
 
 **X**treme **D**ownload **M**anager (XDM) is a powerful tool to increase download speeds up to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.<br>
-<a href="http://xdman.sourceforge.net" target="_blank">Download XDM</a>
+<a href="https://github.com/jayluxferro/XDM-Browser-Extension/releases/download/v1.0.0/XDMSetup.dmg" target="_blank">Download the latest XDM for macOS</a>
 
 ### Installation
 1. Make sure you have XDM installed. 
@@ -15,9 +15,6 @@
 4. Launch the XDM Extension app.
 
 **NB:** If the extension doesn't show in your browser, allow the use of unsigned extension in the 'Develop' menu of your Safari browser.
-
-### Latest XDM for macOS
-https://github.com/jayluxferro/XDM-Browser-Extension/releases/download/v1.0.0/XDMSetup.dmg
 
 ### Development
 1. Clone and build project with Xcode 12 or greater.
