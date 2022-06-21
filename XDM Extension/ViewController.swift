@@ -9,7 +9,7 @@ import Cocoa
 import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
-let appName = "XDM Browser Extension"
+let appName = "XDM Safari Extension"
 let extensionBundleIdentifier = "org.sperixlabs.xdm.extension"
 
 class ViewController: NSViewController {

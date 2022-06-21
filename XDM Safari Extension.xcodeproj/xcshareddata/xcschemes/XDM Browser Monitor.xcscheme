@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "699BEFC7252D472F00598190"
                BuildableName = "XDM Browser Extension.app"
-               BlueprintName = "XDM Browser Extension"
-               ReferencedContainer = "container:XDM Browser Extension.xcodeproj">
+               BlueprintName = "XDM Safari Extension"
+               ReferencedContainer = "container:XDM Safari Extension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "699BEFC7252D472F00598190"
             BuildableName = "XDM Browser Extension.app"
-            BlueprintName = "XDM Browser Extension"
-            ReferencedContainer = "container:XDM Browser Extension.xcodeproj">
+            BlueprintName = "XDM Safari Extension"
+            ReferencedContainer = "container:XDM Safari Extension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "699BEFC7252D472F00598190"
             BuildableName = "XDM Browser Extension.app"
-            BlueprintName = "XDM Browser Extension"
-            ReferencedContainer = "container:XDM Browser Extension.xcodeproj">
+            BlueprintName = "XDM Safari Extension"
+            ReferencedContainer = "container:XDM Safari Extension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

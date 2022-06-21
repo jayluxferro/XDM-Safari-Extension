@@ -25,7 +25,7 @@
 		699BEFD0252D472F00598190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFCE252D472F00598190 /* Main.storyboard */; };
 		699BEFD2252D472F00598190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFD1252D472F00598190 /* ViewController.swift */; };
 		699BEFD4252D473100598190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699BEFD3252D473100598190 /* Assets.xcassets */; };
-		699BEFDB252D473100598190 /* XDM Browser Extension Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		699BEFDB252D473100598190 /* XDM Safari Extension Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 699BEFDA252D473100598190 /* XDM Safari Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		699BEFE0252D473100598190 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699BEFDF252D473100598190 /* Cocoa.framework */; };
 		699BEFE3252D473100598190 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				699BEFDB252D473100598190 /* XDM Browser Extension Extension.appex in Embed App Extensions */,
+				699BEFDB252D473100598190 /* XDM Safari Extension Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,14 +69,14 @@
 		698B79A3252E005500BBE412 /* contentscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentscript.js; sourceTree = "<group>"; };
 		698B79A4252E005500BBE412 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		698B79A5252E005500BBE412 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		699BEFC8252D472F00598190 /* XDM Browser Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XDM Browser Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699BEFC8252D472F00598190 /* XDM Safari Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XDM Safari Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699BEFCB252D472F00598190 /* XDM_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XDM_Extension.entitlements; sourceTree = "<group>"; };
 		699BEFCC252D472F00598190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		699BEFCF252D472F00598190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		699BEFD1252D472F00598190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		699BEFD3252D473100598190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699BEFD5252D473100598190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XDM Browser Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699BEFDA252D473100598190 /* XDM Safari Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XDM Safari Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699BEFDF252D473100598190 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		699BEFE2252D473100598190 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		699BEFE4252D473100598190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 		699BEFC9252D472F00598190 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				699BEFC8252D472F00598190 /* XDM Browser Extension.app */,
-				699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */,
+				699BEFC8252D472F00598190 /* XDM Safari Extension.app */,
+				699BEFDA252D473100598190 /* XDM Safari Extension Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		699BEFC7252D472F00598190 /* XDM Browser Extension */ = {
+		699BEFC7252D472F00598190 /* XDM Safari Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension" */;
+			buildConfigurationList = 699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Safari Extension" */;
 			buildPhases = (
 				699BEFC4252D472F00598190 /* Sources */,
 				699BEFC5252D472F00598190 /* Frameworks */,
@@ -191,14 +191,14 @@
 			dependencies = (
 				699BEFDD252D473100598190 /* PBXTargetDependency */,
 			);
-			name = "XDM Browser Extension";
+			name = "XDM Safari Extension";
 			productName = "XDM Browser Monitor";
-			productReference = 699BEFC8252D472F00598190 /* XDM Browser Extension.app */;
+			productReference = 699BEFC8252D472F00598190 /* XDM Safari Extension.app */;
 			productType = "com.apple.product-type.application";
 		};
-		699BEFD9252D473100598190 /* XDM Browser Extension Extension */ = {
+		699BEFD9252D473100598190 /* XDM Safari Extension Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension Extension" */;
+			buildConfigurationList = 699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Safari Extension Extension" */;
 			buildPhases = (
 				699BEFD6252D473100598190 /* Sources */,
 				699BEFD7252D473100598190 /* Frameworks */,
@@ -208,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = "XDM Browser Extension Extension";
+			name = "XDM Safari Extension Extension";
 			productName = "XDM Browser Monitor Extension";
-			productReference = 699BEFDA252D473100598190 /* XDM Browser Extension Extension.appex */;
+			productReference = 699BEFDA252D473100598190 /* XDM Safari Extension Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Extension" */;
+			buildConfigurationList = 699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Safari Extension" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				699BEFC7252D472F00598190 /* XDM Browser Extension */,
-				699BEFD9252D473100598190 /* XDM Browser Extension Extension */,
+				699BEFC7252D472F00598190 /* XDM Safari Extension */,
+				699BEFD9252D473100598190 /* XDM Safari Extension Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 /* Begin PBXTargetDependency section */
 		699BEFDD252D473100598190 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 699BEFD9252D473100598190 /* XDM Browser Extension Extension */;
+			target = 699BEFD9252D473100598190 /* XDM Safari Extension Extension */;
 			targetProxy = 699BEFDC252D473100598190 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Browser Extension" */ = {
+		699BEFC3252D472F00598190 /* Build configuration list for PBXProject "XDM Safari Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699BEFE6252D473100598190 /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension Extension" */ = {
+		699BEFE8252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Safari Extension Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699BEFE9252D473100598190 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Browser Extension" */ = {
+		699BEFEC252D473100598190 /* Build configuration list for PBXNativeTarget "XDM Safari Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699BEFED252D473100598190 /* Debug */,
